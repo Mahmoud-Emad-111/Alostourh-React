@@ -1,0 +1,61 @@
+.About {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.About .video {
+  width: 45%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5058823529), 0px 0px 20px rgba(0, 0, 0, 0.4431372549);
+  transform: rotateY(30deg) rotateX(15deg);
+}
+.About .video video {
+  width: 100%;
+  display: block;
+}
+.About .AboutContent {
+  width: 50%;
+}
+.About .AboutContent h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.About .AboutContent p {
+  color: #e0e0e0;
+  font-size: 14px;
+}
+.About .AboutContent .HeaderAbout {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.About .AboutContent .HeaderAbout a {
+  width: calc((100% - 15px) / 2);
+  background-color: #131413;
+  border-radius: 7px;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.About .AboutContent .HeaderAbout a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.About .AboutContent .HeaderAbout a .text-header p {
+  font-size: 18px;
+}
+.About .AboutContent .HeaderAbout a .text-header p:nth-of-type(2) {
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 10px;
+}/*# sourceMappingURL=About.css.map */
