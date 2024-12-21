@@ -12,14 +12,17 @@
   z-index: 85;
   height: 70px;
 }
+
 .NavBar .logo img {
   width: 70px;
 }
+
 .NavBar .links {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+
 .NavBar .links a {
   text-transform: uppercase;
   color: #d3d3d3;
@@ -28,12 +31,15 @@
   position: relative;
   display: block;
 }
+
 .NavBar .links a:hover::after {
   opacity: 1;
 }
+
 .NavBar .links a:hover::before {
   opacity: 1;
 }
+
 .NavBar .links a::after {
   content: " ";
   position: absolute;
@@ -47,6 +53,7 @@
   opacity: 0;
   transition: 0.3s;
 }
+
 .NavBar .links a::before {
   transition: 0.3s;
   opacity: 0;
@@ -60,10 +67,12 @@
   width: 12px;
   aspect-ratio: 1/1;
 }
+
 .NavBar .lang {
   display: flex;
   gap: 10px;
 }
+
 .NavBar .lang a {
   background-color: #fafafa;
   color: #fafafa;
@@ -80,9 +89,11 @@
   transition-duration: 0.3s;
   font-weight: 600;
 }
+
 .NavBar .lang a:hover {
   background-color: #3fb0e5;
 }
+
 .NavBar .lang button {
   background-color: #3fb0e5;
   font-weight: 500;

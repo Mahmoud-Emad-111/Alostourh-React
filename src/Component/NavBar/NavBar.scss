@@ -1,103 +1,106 @@
-.NavBar{
-    width: 100%;
-    background-color: #191b1a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 5%;
-    box-shadow: 0px 0px 10px #000000b6;
-    position: sticky;
-    top: 0%;
-    left: 0%;
-    z-index: 85;
-    height: 70px;
-
-    .logo{
-        img{
-            width: 70px;
-        }
-    }
-    .links{
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        a{
-            text-transform: uppercase;
-            color: #d3d3d3;
-            font-size: 14px;
-            padding: 5px 15px;
-            position: relative;
-            display: block;
-            &:hover{
-                &::after{
-                    opacity: 1;
-                }
-                &::before{
-                    opacity: 1;
-
-                }
-                
-            }
-            &::after{
-                content: " ";
-                position: absolute;
-                top: 0%;
-                left: 0%;
-                border: solid 2px #3fb0e5;
-                border-bottom: transparent;
-                border-right: transparent;
-                width: 12px;
-                aspect-ratio: 1 / 1;
-                opacity: 0;
-                transition: .3s;
-            }
-            &::before{
-                transition: .3s;
-                opacity: 0;
-                content: " ";
-                position: absolute;
-                bottom: 0%;
-                right: 0%;
-                border: solid 2px #3fb0e5;
-                border-top: transparent;
-                border-left: transparent;
-                width: 12px;
-                aspect-ratio: 1 / 1;
-            }
-        }
-    }
-    .lang{
-        display: flex;
-        gap: 10px;
-        a{
-            background-color: #fafafa;
-            color: #fafafa;
-            padding: 6px 10px;
-            text-transform: lowercase;
-            background-color: #202020;
-            font-weight: 300;
-            letter-spacing: 1px;
-            text-transform: capitalize;
-            border-radius: 3px;
-            box-shadow: 0px 0px 10px #0000003a;
-            border: solid 2px #3fb0e5;
-            font-size: 14px;
-            transition-duration: 0.3s;
-            font-weight: 600;
-            &:hover{
-                background-color: #3fb0e5;
-                
-            }
-            
-        }
-        button{
-            background-color: #3fb0e5;
-            font-weight: 500;
-            color: #fafafa;
-            border-radius: 3px;
-            box-shadow: 0px 0px 10px #0000003a;
-            border: solid 2px #3fb0e5;
-            cursor: pointer;
-        }
-    }
-}
+.NavBar {  
+    width: 100%;  
+    background-color: #191b1a;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 15px 5%;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7137254902);  
+    position: sticky;  
+    top: 0%;  
+    left: 0%;  
+    z-index: 85;  
+    height: 70px;  
+  }  
+    
+  .NavBar .logo img {  
+    width: 70px;  
+  }  
+    
+  .NavBar .links {  
+    display: flex;  
+    gap: 20px;  
+    align-items: center;  
+  }  
+    
+  .NavBar .links a {  
+    text-transform: uppercase;  
+    color: #d3d3d3;  
+    font-size: 14px;  
+    padding: 5px 15px;  
+    position: relative;  
+    display: block;  
+  }  
+    
+  .NavBar .links a:hover::after {  
+    opacity: 1;  
+  }  
+    
+  .NavBar .links a:hover::before {  
+    opacity: 1;  
+  }  
+    
+  .NavBar .links a::after {  
+    content: " ";  
+    position: absolute;  
+    top: 0%;  
+    left: 0%;  
+    border: solid 2px #3fb0e5;  
+    border-bottom: transparent;  
+    border-right: transparent;  
+    width: 12px;  
+    aspect-ratio: 1/1;  
+    opacity: 0;  
+    transition: 0.3s;  
+  }  
+    
+  .NavBar .links a::before {  
+    transition: 0.3s;  
+    opacity: 0;  
+    content: " ";  
+    position: absolute;  
+    bottom: 0%;  
+    right: 0%;  
+    border: solid 2px #3fb0e5;  
+    border-top: transparent;  
+    border-left: transparent;  
+    width: 12px;  
+    aspect-ratio: 1/1;  
+  }  
+    
+  .NavBar .lang {  
+    display: flex;  
+    gap: 10px;  
+  }  
+    
+  .NavBar .lang a {  
+    background-color: #fafafa;  
+    color: #fafafa;  
+    padding: 6px 10px;  
+    text-transform: lowercase;  
+    background-color: #202020;  
+    font-weight: 300;  
+    letter-spacing: 1px;  
+    text-transform: capitalize;  
+    border-radius: 3px;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2274509804);  
+    border: solid 2px #3fb0e5;  
+    font-size: 14px;  
+    transition-duration: 0.3s;  
+    font-weight: 600;  
+  }  
+    
+  .NavBar .lang a:hover {  
+    background-color: #3fb0e5;  
+  }  
+    
+  .NavBar .lang button {  
+    background-color: #3fb0e5;  
+    font-weight: 500;  
+    color: #fafafa;  
+    border-radius: 3px;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2274509804);  
+    border: solid 2px #3fb0e5;  
+    cursor: pointer;  
+  }
+  
