@@ -6,17 +6,17 @@ export default function NavBar() {
   return (
     <div className='NavBar container'>
     <div className="logo">
-        <img src={logo} alt="" />
+      <Link to='/'>        <img src={logo} alt="" />      </Link>
     </div>
     <div className='links'>
         <Link to='/About'>About</Link>
-        <Link to='/About'>Services</Link>
-        <Link to='/About'>Projects</Link>
-        <Link to='/About'>faqs</Link>
-        <Link to='/About'>content</Link>
+        <Link to='/Services'>Services</Link>
+        <Link to='/Projects'>Projects</Link>
+        <Link to='/Faqs'>faqs</Link>
+        <Link to='/Contact'>Contact</Link>
     </div>
     <div className='lang'>
-    <Link to='/About' target='_blank'>apply for job</Link>
+    <Link to='/Jop' target='_blank'>apply for job</Link>
      <button>AR</button>
     </div>
     </div>

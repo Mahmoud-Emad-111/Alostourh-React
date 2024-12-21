@@ -1,0 +1,23 @@
+.Foater_c {
+  z-index: 1111;
+  text-align: center;
+  padding: 5vh 5%;
+  background-color: #000;
+  color: #d3d3d3;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Foater_c .media {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 20px;
+  color: #3fb0e5;
+  justify-content: center;
+}/*# sourceMappingURL=Foater.css.map */

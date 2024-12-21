@@ -139,26 +139,7 @@ theme="dark"
        </form>  
       </div>  
     </section>  
-    <section className="powered">  
-      <p>Copyright 2024 All Rights Reserved - Alostourh</p>  
-      <div className="footer-links">  
-       <a href={socialMediaLinks.facebook}>  
-        <i className="fa-brands fa-facebook-f"></i>  
-       </a>  
-       <a href={socialMediaLinks.telegram}>  
-        <i className="fa-brands fa-telegram"></i>  
-       </a>  
-       <a href={socialMediaLinks.instagram}>  
-        <i className="fa-brands fa-instagram"></i>  
-       </a>  
-       <a href={socialMediaLinks.whatsapp}>  
-        <i className="fa-brands fa-whatsapp"></i>  
-       </a>  
-      </div>  
-      <p>  
-       powered by <a href="https://mrslia.com/" target="_blank">Marslia</a>  
-      </p>  
-    </section>  
+  
     </div>
   )
 }

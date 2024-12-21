@@ -9,6 +9,7 @@ import About from '../About/About';
 import Cart from '../Cart/Cart';
 import Questions from '../Questions/Questions';
 import Contact from '../Contact/Contact';
+import Foater from '../Foater/Foater';
 export default function Home() {
 
     useEffect(() => {
@@ -223,6 +224,7 @@ export default function Home() {
     <div>
         <Contact/>
     </div>
+    <Foater/>
     </div>
   )
 }
